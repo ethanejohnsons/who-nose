@@ -1,0 +1,21 @@
+{
+	"schemaVersion": 1,
+	"id": "whonose",
+	"version": "${version}",
+	"name": "Who Nose",
+	"license": "MIT",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"dev.bluevista.whonose.WhoNoseMod"
+		]
+	},
+	"mixins": [
+		"whonose.mixins.json"
+	],
+	"depends": {
+		"minecraft": ">=1.21",
+		"fabricloader": "*",
+		"fabric": "*"
+	}
+}
