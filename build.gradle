@@ -30,6 +30,10 @@ processResources {
 	}
 }
 
+loom {
+	accessWidenerPath = file("src/main/resources/whonose.accessWidener")
+}
+
 dependencies {
 	minecraft "com.mojang:minecraft:$minecraft_version"
 

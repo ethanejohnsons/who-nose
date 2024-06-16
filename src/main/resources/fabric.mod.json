@@ -6,13 +6,11 @@
 	"license": "MIT",
 	"environment": "*",
 	"entrypoints": {
-		"main": [
-			"dev.bluevista.whonose.WhoNoseMod"
-		]
+		"main": [ "dev.bluevista.whonose.WhoNoseMod" ],
+		"client": [ "dev.bluevista.whonose.WhoNoseMod" ]
 	},
-	"mixins": [
-		"whonose.mixins.json"
-	],
+	"mixins": [ "whonose.mixins.json" ],
+	"accessWidener": "whonose.accessWidener",
 	"depends": {
 		"minecraft": ">=1.21",
 		"fabricloader": "*",
